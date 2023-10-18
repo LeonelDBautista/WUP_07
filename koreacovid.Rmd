@@ -64,8 +64,14 @@ These results confirmed the data we saw in the ggplot results. Which was that wo
 
 ## Inferential results 
 
+```{r}
+chisq.test(table2)
+chisqtestGC(table2)
+fisher.test(table2)
 
+```
 
+Based on the result of the chisquare and fisher test, the result show that if you are a man, you are twice as likely to die from COVID the women.   
 
 ## Conclusions
 
